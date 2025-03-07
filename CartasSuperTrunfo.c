@@ -102,5 +102,31 @@ int main() {
     printf("PIB: %.2F \n", PIB2);
     printf("Pontos turisticos: %i \n", pontos_turisticos2);
 
+    // Continuição da atividade, agora com if-else
+
+    printf("Vamos agora calcular a Densidade Populacional e PIB per capita das cartas! \n");
+
+    float densidade = area / populacao;
+    float densidade2 = area2 / populacao2;
+    float PIB_per_capita = PIB / populacao;
+    float PIB_per_capita2 = PIB2 / populacao2;
+
+    printf ("Cálculo da Densidade Populacional e PIB per Capita:\n");
+
+    printf("%s: %.2f habitantes/KM² \n", nome_da_cidade, densidade);
+    printf("%s: %.2f habitantes/KM² \n", nome_da_cidade2, densidade2);
+    printf("%s: %.2f habitantes/KM² \n", nome_da_cidade, PIB_per_capita);
+    printf("%s: %.2f habitantes/KM² \n", nome_da_cidade2, PIB_per_capita2);
+
+    // calculos do exercicio concluido, agora vamos a carta vencedora. A competição sera a diferetne da população, a maior vence.
+    printf(" Qume tiver a maior popualação ganha! E o quem será o vencedor...?\n");
+    if (populacao > populacao2) {
+        printf("A cidade %s Ganhou! \n", nome_da_cidade);
+    } else {
+        printf("A cidade %s Ganhou! \n", nome_da_cidade2);
+    }
+    
+    
+
     return 0;
 }
