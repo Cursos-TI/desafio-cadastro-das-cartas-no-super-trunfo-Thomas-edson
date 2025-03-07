@@ -115,8 +115,8 @@ int main() {
 
     printf("%s: %.2f habitantes/KM² \n", nome_da_cidade, densidade);
     printf("%s: %.2f habitantes/KM² \n", nome_da_cidade2, densidade2);
-    printf("%s: %.2f habitantes/KM² \n", nome_da_cidade, PIB_per_capita);
-    printf("%s: %.2f habitantes/KM² \n", nome_da_cidade2, PIB_per_capita2);
+    printf("%s: %.2f Pib per capita \n", nome_da_cidade, PIB_per_capita);
+    printf("%s: %.2f Pib per capita \n", nome_da_cidade2, PIB_per_capita2);
 
     // calculos do exercicio concluido, agora vamos a carta vencedora. A competição sera a diferetne da população, a maior vence.
     printf(" Qume tiver a maior popualação ganha! E o quem será o vencedor...?\n");
