@@ -119,7 +119,7 @@ int main() {
     printf("%s: %.2f Pib per capita \n", nome_da_cidade2, PIB_per_capita2);
 
     // calculos do exercicio concluido, agora vamos a carta vencedora. A competição sera a diferetne da população, a maior vence.
-    printf(" Qume tiver a maior popualação ganha! E o quem será o vencedor...?\n");
+    printf(" Quem tiver a maior população ganha! E o quem será o vencedor...?\n");
     if (populacao > populacao2) {
         printf("A cidade %s Ganhou! \n", nome_da_cidade);
     } else {
